@@ -1,0 +1,25 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #CDCDCD;
+}
+
+#custom-canvas{
+  /* border: 1px solid blue; */
+  width: auto;
+  position: absolute;
+  z-index: 2;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+
+#tshirt-item{
+  width: 50%;
+  /* border: 1px solid black; */
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+}
